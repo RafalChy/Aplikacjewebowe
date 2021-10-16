@@ -21,5 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.google.pl/?gws_rd=ssl')
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Google/div_Dostosuj'), 'Dostosuj')
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Google/div_Dostosuj'), 'Dosto')
+
+WebUI.closeBrowser()
 
